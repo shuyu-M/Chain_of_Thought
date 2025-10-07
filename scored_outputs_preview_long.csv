@@ -1,0 +1,1065 @@
+question,answer,score,score2,score1,score0,q_norm,pred,gen_text,mode,cot_enabled,model_name,subset_n,batch_no,batch_th,temperature,top_p,ts_utc
+To segment the rose petals [4 marks]:      ,A narrow range around 0/360 degree for H (due to red color of petals). A broad range of I centered around 0.5. A broad range of S centered around 0.5.,2,"Clearly and specifically addresses the key requirement by covering narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5 with accurate details.","Covers some key elements (at least 2 of: narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5.",to segment the rose petals [4 marks]:,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""To segment the rose petals [4 marks]:      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+Score 1: Covers some key elements (at least 2 of: narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+Score 0: Does not address the key requirement or fails to mention narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+
+Student Response: ""A narrow range around 0/360 degree for H (due to red color of petals). A broad range of I centered around 0.5. A broad range of S centered around 0.5.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. Readability. That is, while reading the class member functions and variables, one can easily locate a member function that is being searched for. Further, one can get a rough overview of what the class is trying to accomplish without getting into the gritty details by just looking at the declaration of the member functions.
+2. Use of global variables. Although this need not apply to everyone, personally, if I would like to use a global variable and change its value when the function is called, I would like to first declare all the classes which I would be using in my program and then declare the global variables and finally, at the end, just before I write my main function, I would write the definition of the member function.",1,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,1.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. Readability. That is, while reading the class member functions and variables, one can easily locate a member function that is being searched for. Further, one can get a rough overview of what the class is trying to accomplish without getting into the gritty details by just looking at the declaration of the member functions.
+2. Use of global variables. Although this need not apply to everyone, p""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+1",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+b. Assuming an user process knows the PID of another target process (from a pool of several READY processes), it has the capability to initiate a context switch and schedule the target process next on the CPU.","
+False. Scheduler functions in kernel space, not user space.
+",2,"States False and provides a correct justification referencing it cannot guaranteed scheduler will actually run process next, justification, and capability (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+b. assuming an user process knows the pid of another target process (from a pool of several ready processes), it has the capability to initiate a context switch and schedule the target process next on the cpu.",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+b. Assuming an user process knows the PID of another target process (from a pool of several READY processes), it has the capability to initiate a context switch and schedule the target process next on the CPU.""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing it cannot guaranteed scheduler will actually run process next, justification, and capability (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""
+False. Scheduler functions in kernel space, not user space.
+""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.","TRUE. Using a blocker like wait(), the parent process can terminate after exec.",1,"States True and provides a correct justification referencing no marks. e. if parent process forks new child process, justify. no correct justification, and q1. state true (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+e. if a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing no marks
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""TRUE. Using a blocker like wait(), the parent process can terminate after exec.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",True. Yes we can initiate exec system call in parent because child process schedule in parent parent first then child next the schedules parent that first then child and above is possible.,2,"States True and provides a correct justification referencing no marks. e. if parent process forks new child process, justify. no correct justification, and q1. state true (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+e. if a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing no marks
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""True. Yes we can initiate exec system call in parent because child process schedule in parent parent first then child next the schedules parent that first then child and above is possible.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What theorem do we use to prove symmetry of stiffness matrix,"equilibrium, maxwell betty",1,"Clearly and specifically addresses the key requirement by covering maxwell betti reciprocal theorem, reciprocal, and stiffness with accurate details.","Covers some key elements (at least 2 of: maxwell betti reciprocal theorem, reciprocal, and stiffness) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention maxwell betti reciprocal theorem, reciprocal, and stiffness.",what theorem do we use to prove symmetry of stiffness matrix,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What theorem do we use to prove symmetry of stiffness matrix""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering maxwell betti reciprocal theorem, reciprocal, and stiffness with accurate details
+Score 1: Covers some key elements (at least 2 of: maxwell betti reciprocal theorem, reciprocal, and stiffness) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention maxwell betti reciprocal theorem, reciprocal, and stiffness
+
+Student Response: ""equilibrium, maxwell betty""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+d. Assuming an user process knows the PID of another task from a pool of several READY processes, it does not have the capability to initiate a context switch and schedule the target process next on the CPU.","**TRUE**. All context switches go through the OS; the OS's scheduler decides what (if any) to switch to, and then the user process cannot. Any context switch must go via trap-to-OS, and from there the user process has no control on the scheduling.",2,"States True and provides a correct justification referencing it does not have capability initiate context switch, schedule target process next cpu, and justify. no correct justification (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+d. assuming an user process knows the pid of another task from a pool of several ready processes, it does not have the capability to initiate a context switch and schedule the target process next on the cpu.",2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+d. Assuming an user process knows the PID of another task from a pool of several READY processes, it does not have the capability to initiate a context switch and schedule the target process next on the CPU.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing it does not have capability initiate context switch, schedule target process next cpu, and justify
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""**TRUE**. All context switches go through the OS; the OS's scheduler decides what (if any) to switch to, and then the user process cannot. Any context switch must go via trap-to-OS, and from there the user process has no control on the scheduling.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What is the utility of nonlinearly transforming the feature vectors from classification point of view?,"Many time using the features vectors as such, it becomes very hard to classify the data , if the decision boundaries are very complex and/or the classifier at hand classify the classes.",1,"Clearly and specifically addresses the key requirement by covering linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non with accurate details.","Covers some key elements (at least 2 of: linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non.",what is the utility of nonlinearly transforming the feature vectors from classification point of view?,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What is the utility of nonlinearly transforming the feature vectors from classification point of view?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non with accurate details
+Score 1: Covers some key elements (at least 2 of: linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non
+
+Student Response: ""Many time using the features vectors as such, it becomes very hard to classify the data , if the decision boundaries are very complex and/or the classifier at hand classify the classes.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Write any two limitations of AJM.      ,"low MRR, High setup cost",2,"Clearly and specifically addresses the key requirement by covering low material removal rate, limited nozzle life, and high cost with accurate details.","Covers some key elements (at least 2 of: low material removal rate, limited nozzle life, and high cost) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention low material removal rate, limited nozzle life, and high cost.",write any two limitations of ajm.,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Write any two limitations of AJM.      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering low material removal rate, limited nozzle life, and high cost with accurate details
+Score 1: Covers some key elements (at least 2 of: low material removal rate, limited nozzle life, and high cost) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention low material removal rate, limited nozzle life, and high cost
+
+Student Response: ""low MRR, High setup cost""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+The appetitive      faculty corresonds to      ,the lower material human desires like hunger for food and desire to procreate,1,"Clearly and specifically addresses the key requirement by covering appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive with accurate details.","Covers some key elements (at least 2 of: appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive.",the appetitive      faculty corresonds to,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""The appetitive      faculty corresonds to      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering appetitive faculty one 3 divisions soul
+Score 1: Covers some key elements (at least 2 of: appetitive faculty one 3 divisions soul
+Score 0: Does not address the key requirement or fails to mention appetitive faculty one 3 divisions soul
+
+Student Response: ""the lower material human desires like hunger for food and desire to procreate""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",FALSE,0,"States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+a. the pipe system call creates two file descriptors fd[0] and fd[1]. writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""FALSE""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+Okay, let's tackle this",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. When the fork() system call is made the child process is (almost) identical to the parent
+process. In the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+Explain the return path from the kernel mode to the user mode for the child process.
+Specifically, there was no trap in the child process, so how does the child process return from
+a trap?"," fork()
+return path from the kernel mode to the user mode for the child process, there was no trap in child.",0,"Clearly and specifically addresses the key requirement by covering it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space with accurate details.","Covers some key elements (at least 2 of: it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space.","c. when the fork() system call is made the child process is (almost) identical to the parent
+process. in the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+explain the return path from the kernel mode to the user mode for the child process.
+specifically, there was no trap in the child process, so how does the child process return from
+a trap?",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. When the fork() system call is made the child process is (almost) identical to the parent
+process. In the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+Explain the return path from the kernel mode to the use""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering it kernel mode
+Score 1: Covers some key elements (at least 2 of: it kernel mode
+Score 0: Does not address the key requirement or fails to mention it kernel mode
+
+Student Response: "" fork()
+return path from the kernel mode to the user mode for the child process, there was no trap in child.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction)."," Text:
+To Do",0,"Clearly and specifically addresses the key requirement by covering executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings with accurate details.","Covers some key elements (at least 2 of: executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings.","c. assume the os is using a lazy allocation policy for memory allocation to processes. on a page fault due to an unmapped physical page(and a valid virtual address), the os handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction).",2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then exec""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering executes faulting instruction
+Score 1: Covers some key elements (at least 2 of: executes faulting instruction
+Score 0: Does not address the key requirement or fails to mention executes faulting instruction
+
+Student Response: "" Text:
+To Do""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Write any advantage of using TiC/TiN as a tool coating material.,it has thermal stability,2,"Clearly and specifically addresses the key requirement by covering write any advantage using tic tin tool coating material, coefficient, and resistance with accurate details.","Covers some key elements (at least 2 of: write any advantage using tic tin tool coating material, coefficient, and resistance) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention write any advantage using tic tin tool coating material, coefficient, and resistance.",write any advantage of using tic/tin as a tool coating material.,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Write any advantage of using TiC/TiN as a tool coating material.""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering write any advantage using tic tin tool coating material, coefficient, and resistance with accurate details
+Score 1: Covers some key elements (at least 2 of: write any advantage using tic tin tool coating material, coefficient, and resistance) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention write any advantage using tic tin tool coating material, coefficient, and resistance
+
+Student Response: ""it has thermal stability""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. It makes the appearance of the class good
+ because we can clearly see all the declarations at once and  also 
+suppose  we have many member functions defined in a class and if we declare and define at the same place , it will be difficult for us to look for ",1,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,1.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. It makes the appearance of the class good
+ because we can clearly see all the declarations at once and  also 
+suppose  we have many member functions defined in a class and if we declare and define at the same place , it will be difficult for us to look for ""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+1",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?,Low eigen values denotes very low variance all the values are concentrated towards its mean.,1,"Clearly and specifically addresses the key requirement by covering highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance with accurate details.","Covers some key elements (at least 2 of: highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance.",what is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering highly corelated some other vector
+Score 1: Covers some key elements (at least 2 of: highly corelated some other vector
+Score 0: Does not address the key requirement or fails to mention highly corelated some other vector
+
+Student Response: ""Low eigen values denotes very low variance all the values are concentrated towards its mean.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction)."," True.
+If the virtual address is valid, it will operate in kernel mode to allocate the physical pages with virtual addresses, hence the OS and then move onto the next instruction, providing an illusion to the process that it can directly access its given memory (abstracting the actual allocation and mapping).",0,"Clearly and specifically addresses the key requirement by covering executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings with accurate details.","Covers some key elements (at least 2 of: executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings.","c. assume the os is using a lazy allocation policy for memory allocation to processes. on a page fault due to an unmapped physical page(and a valid virtual address), the os handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction).",2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then exec""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering executes faulting instruction
+Score 1: Covers some key elements (at least 2 of: executes faulting instruction
+Score 0: Does not address the key requirement or fails to mention executes faulting instruction
+
+Student Response: "" True.
+If the virtual address is valid, it will operate in kernel mode to allocate the physical pages with virtual addresses, hence the OS and then move onto the next instruction, providing an illusion to the process that it can directly access its given memory (abstracting the actual allocation and mapping).""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"a. List and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the OS via the limited-directed execution setup.
+Note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a PCB exists and hence may not know how to
+update its contents)."," Disable Interrupts - It is a commonly executed instruction in kernel mode however if a user process tries to do this, it has to be restricted otherwise it may occupy the CPU indefinitely.
+Access address above KERNBASE in VA space: Making changes in this VA space may change data required for kernel.",1,"Clearly and specifically addresses the key requirement by covering write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status with accurate details.","Covers some key elements (at least 2 of: write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status.","a. list and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the os via the limited-directed execution setup.
+note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a pcb exists and hence may not know how to
+update its contents).",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""a. List and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the OS via the limited-directed execution setup.
+Note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a PCB exists ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status with accurate details
+Score 1: Covers some key elements (at least 2 of: write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status
+
+Student Response: "" Disable Interrupts - It is a commonly executed instruction in kernel mode however if a user process tries to do this, it has to be restricted otherwise it may occupy the CPU indefinitely.
+Access address above KERNBASE in VA space: Making changes in this VA space may change data required for kernel.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What are the types of hydropower plants based on hydraulic characteristics?,"Storage Plant, Run of River Plant, Cascade Plant",1,"Clearly and specifically addresses the key requirement by covering river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower with accurate details.","Covers some key elements (at least 2 of: river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower.",what are the types of hydropower plants based on hydraulic characteristics?,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What are the types of hydropower plants based on hydraulic characteristics?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower with accurate details
+Score 1: Covers some key elements (at least 2 of: river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower
+
+Student Response: ""Storage Plant, Run of River Plant, Cascade Plant""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+Okay, let's tackle this",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Give any application of broaching process.,Broaching process is used to reduce the block thickness or width or length. The block is fixed in one place and the broaching process is carried out.,0,"Clearly and specifically addresses the key requirement by covering splines etc. it also used making slots support, precision machining like automotive industries, and machining gears with accurate details.","Covers some key elements (at least 2 of: splines etc. it also used making slots support, precision machining like automotive industries, and machining gears) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention splines etc. it also used making slots support, precision machining like automotive industries, and machining gears.",give any application of broaching process.,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Give any application of broaching process.""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering splines etc
+Score 1: Covers some key elements (at least 2 of: splines etc
+Score 0: Does not address the key requirement or fails to mention splines etc
+
+Student Response: ""Broaching process is used to reduce the block thickness or width or length. The block is fixed in one place and the broaching process is carried out.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",False. Writes are done using fd[1] & reads using fd[0] This is the structure of piped file descriptors.,2,"States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+a. the pipe system call creates two file descriptors fd[0] and fd[1]. writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""False. Writes are done using fd[1] & reads using fd[0] This is the structure of piped file descriptors.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Usable life of a reservoir is,time till reservoir complete need which for it was designed.,0,"Clearly and specifically addresses the key requirement by covering until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time with accurate details.","Covers some key elements (at least 2 of: until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time.",usable life of a reservoir is,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Usable life of a reservoir is""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time with accurate details
+Score 1: Covers some key elements (at least 2 of: until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time
+
+Student Response: ""time till reservoir complete need which for it was designed.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. It makes the class definition compact and easy to understand, which improves readability of the code and helps us better understand all the functions that a class provides easily, making it de-cluttered.
+
+2. One can easily modify/add to the class definition when defined outside the class without having to modify the class contents, thus making it more accessible, especially when code is divided into files and we need to share the code with slight changes, then we could just make the change in one file containing all function definitions.",2,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. It makes the class definition compact and easy to understand, which improves readability of the code and helps us better understand all the functions that a class provides easily, making it de-cluttered.
+
+2. One can easily modify/add to the class definition when defined outside the class without having to modify the class contents, thus making it more accessible, especially when code is divided""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+</think>
+
+2",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+To segment the green leaves and stem [4 marks]:,To segment green leaves and stem we apply a threshold of range of values around 120 degree which corresponds to green. the range we should use must be broader than applied in previous part as the shade of green is more darker. Similar to before no threshold on intensity and saturation.,1,"Clearly and specifically addresses the key requirement by covering saturation low, saturation, and intensity with accurate details.","Covers some key elements (at least 2 of: saturation low, saturation, and intensity) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention saturation low, saturation, and intensity.",to segment the green leaves and stem [4 marks]:,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""To segment the green leaves and stem [4 marks]:""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering saturation low, saturation, and intensity with accurate details
+Score 1: Covers some key elements (at least 2 of: saturation low, saturation, and intensity) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention saturation low, saturation, and intensity
+
+Student Response: ""To segment green leaves and stem we apply a threshold of range of values around 120 degree which corresponds to green. the range we should use must be broader than applied in previous part as the shade of green is more darker. Similar to before no threshold on intensity and saturation.""
+
+Output only the final score as a single number: 0 or 1 or 2. No extra text.
+assistant
+<think>
+</think>
+
+0",no_think,False,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+To segment the rose petals [4 marks]:      ,A narrow range around 0/360 degree for H (due to red color of petals). A broad range of I centered around 0.5. A broad range of S centered around 0.5.,2,"Clearly and specifically addresses the key requirement by covering narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5 with accurate details.","Covers some key elements (at least 2 of: narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0.5.",to segment the rose petals [4 marks]:,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""To segment the rose petals [4 marks]:      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+Score 1: Covers some key elements (at least 2 of: narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+Score 0: Does not address the key requirement or fails to mention narrow range around 0 360 degress, all primary colors pure colors, and broad range around 0
+
+Student Response: ""A narrow range around 0/360 degree for H (due to red color of petals). A broad range of I centered around 0.5. A broad range of S centered around 0.5.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. Readability. That is, while reading the class member functions and variables, one can easily locate a member function that is being searched for. Further, one can get a rough overview of what the class is trying to accomplish without getting into the gritty details by just looking at the declaration of the member functions.
+2. Use of global variables. Although this need not apply to everyone, personally, if I would like to use a global variable and change its value when the function is called, I would like to first declare all the classes which I would be using in my program and then declare the global variables and finally, at the end, just before I write my main function, I would write the definition of the member function.",1,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. Readability. That is, while reading the class member functions and variables, one can easily locate a member function that is being searched for. Further, one can get a rough overview of what the class is trying to accomplish without getting into the gritty details by just looking at the declaration of the member functions.
+2. Use of global variables. Although this need not apply to everyone, p""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+</think>
+
+SCORE: 0/1/2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+b. Assuming an user process knows the PID of another target process (from a pool of several READY processes), it has the capability to initiate a context switch and schedule the target process next on the CPU.","
+False. Scheduler functions in kernel space, not user space.
+",2,"States False and provides a correct justification referencing it cannot guaranteed scheduler will actually run process next, justification, and capability (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+b. assuming an user process knows the pid of another target process (from a pool of several ready processes), it has the capability to initiate a context switch and schedule the target process next on the cpu.",,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+b. Assuming an user process knows the PID of another target process (from a pool of several READY processes), it has the capability to initiate a context switch and schedule the target process next on the CPU.""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing it cannot guaranteed scheduler will actually run process next, justification, and capability (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""
+False. Scheduler functions in kernel space, not user space.
+""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The student's response says it's False and provides a justification about the scheduler being in kernel space. But the actual question is about whether a user process can initiate a context switch and schedule another",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.","TRUE. Using a blocker like wait(), the parent process can terminate after exec.",1,"States True and provides a correct justification referencing no marks. e. if parent process forks new child process, justify. no correct justification, and q1. state true (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+e. if a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing no marks
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""TRUE. Using a blocker like wait(), the parent process can terminate after exec.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The student is asking about whether the exec system call can be used in the parent process before the child process terminates, after the parent forks. The question is about the correctness of the statement in",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",True. Yes we can initiate exec system call in parent because child process schedule in parent parent first then child next the schedules parent that first then child and above is possible.,2,"States True and provides a correct justification referencing no marks. e. if parent process forks new child process, justify. no correct justification, and q1. state true (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+e. if a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+e. If a parent process forks a new child process, the exec system call can be used in the parent process before the child process terminates.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing no marks
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""True. Yes we can initiate exec system call in parent because child process schedule in parent parent first then child next the schedules parent that first then child and above is possible.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What theorem do we use to prove symmetry of stiffness matrix,"equilibrium, maxwell betty",1,"Clearly and specifically addresses the key requirement by covering maxwell betti reciprocal theorem, reciprocal, and stiffness with accurate details.","Covers some key elements (at least 2 of: maxwell betti reciprocal theorem, reciprocal, and stiffness) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention maxwell betti reciprocal theorem, reciprocal, and stiffness.",what theorem do we use to prove symmetry of stiffness matrix,1.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What theorem do we use to prove symmetry of stiffness matrix""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering maxwell betti reciprocal theorem, reciprocal, and stiffness with accurate details
+Score 1: Covers some key elements (at least 2 of: maxwell betti reciprocal theorem, reciprocal, and stiffness) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention maxwell betti reciprocal theorem, reciprocal, and stiffness
+
+Student Response: ""equilibrium, maxwell betty""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 1",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+d. Assuming an user process knows the PID of another task from a pool of several READY processes, it does not have the capability to initiate a context switch and schedule the target process next on the CPU.","**TRUE**. All context switches go through the OS; the OS's scheduler decides what (if any) to switch to, and then the user process cannot. Any context switch must go via trap-to-OS, and from there the user process has no control on the scheduling.",2,"States True and provides a correct justification referencing it does not have capability initiate context switch, schedule target process next cpu, and justify. no correct justification (e.g., the causal link / mechanism).","States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+d. assuming an user process knows the pid of another task from a pool of several ready processes, it does not have the capability to initiate a context switch and schedule the target process next on the cpu.",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+d. Assuming an user process knows the PID of another task from a pool of several READY processes, it does not have the capability to initiate a context switch and schedule the target process next on the CPU.""
+
+Rubric:
+Score 2: States True and provides a correct justification referencing it does not have capability initiate context switch, schedule target process next cpu, and justify
+Score 1: States True OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""**TRUE**. All context switches go through the OS; the OS's scheduler decides what (if any) to switch to, and then the user process cannot. Any context switch must go via trap-to-OS, and from there the user process has no control on the scheduling.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What is the utility of nonlinearly transforming the feature vectors from classification point of view?,"Many time using the features vectors as such, it becomes very hard to classify the data , if the decision boundaries are very complex and/or the classifier at hand classify the classes.",1,"Clearly and specifically addresses the key requirement by covering linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non with accurate details.","Covers some key elements (at least 2 of: linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non.",what is the utility of nonlinearly transforming the feature vectors from classification point of view?,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What is the utility of nonlinearly transforming the feature vectors from classification point of view?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non with accurate details
+Score 1: Covers some key elements (at least 2 of: linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention linear feature can used very basic classifiers like svm efficiently, effectively classify very complex data sets, and introducing non
+
+Student Response: ""Many time using the features vectors as such, it becomes very hard to classify the data , if the decision boundaries are very complex and/or the classifier at hand classify the classes.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Write any two limitations of AJM.      ,"low MRR, High setup cost",2,"Clearly and specifically addresses the key requirement by covering low material removal rate, limited nozzle life, and high cost with accurate details.","Covers some key elements (at least 2 of: low material removal rate, limited nozzle life, and high cost) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention low material removal rate, limited nozzle life, and high cost.",write any two limitations of ajm.,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Write any two limitations of AJM.      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering low material removal rate, limited nozzle life, and high cost with accurate details
+Score 1: Covers some key elements (at least 2 of: low material removal rate, limited nozzle life, and high cost) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention low material removal rate, limited nozzle life, and high cost
+
+Student Response: ""low MRR, High setup cost""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0/1/2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+The appetitive      faculty corresonds to      ,the lower material human desires like hunger for food and desire to procreate,1,"Clearly and specifically addresses the key requirement by covering appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive with accurate details.","Covers some key elements (at least 2 of: appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention appetitive faculty one 3 divisions soul. it part dealing desires, plato s theory soul, and appetitive.",the appetitive      faculty corresonds to,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""The appetitive      faculty corresonds to      ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering appetitive faculty one 3 divisions soul
+Score 1: Covers some key elements (at least 2 of: appetitive faculty one 3 divisions soul
+Score 0: Does not address the key requirement or fails to mention appetitive faculty one 3 divisions soul
+
+Student Response: ""the lower material human desires like hunger for food and desire to procreate""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",FALSE,0,"States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+a. the pipe system call creates two file descriptors fd[0] and fd[1]. writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""FALSE""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The student response was ""FALSE"" and the score needs to be determined based on the rubric.
+
+First, the question is about the pipe system call. The student is being asked to state",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. When the fork() system call is made the child process is (almost) identical to the parent
+process. In the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+Explain the return path from the kernel mode to the user mode for the child process.
+Specifically, there was no trap in the child process, so how does the child process return from
+a trap?"," fork()
+return path from the kernel mode to the user mode for the child process, there was no trap in child.",0,"Clearly and specifically addresses the key requirement by covering it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space with accurate details.","Covers some key elements (at least 2 of: it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention it kernel mode. child process needs context execute kernel mode, context execution child setup start execution at start function, and then proceeds rest kernel stack unrolling return user space.","c. when the fork() system call is made the child process is (almost) identical to the parent
+process. in the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+explain the return path from the kernel mode to the user mode for the child process.
+specifically, there was no trap in the child process, so how does the child process return from
+a trap?",,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. When the fork() system call is made the child process is (almost) identical to the parent
+process. In the parent process, the return path from kernel mode to user mode happens via
+the trap/interrupt handler (system call is a trap/interrupt).
+Explain the return path from the kernel mode to the use""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering it kernel mode
+Score 1: Covers some key elements (at least 2 of: it kernel mode
+Score 0: Does not address the key requirement or fails to mention it kernel mode
+
+Student Response: "" fork()
+return path from the kernel mode to the user mode for the child process, there was no trap in child.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+The student response is incorrect in several ways:
+
+1. **It does not address the key requirement at all.** The question asks for an explanation of the return path from kernel mode to user mode for the **child**",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction)."," Text:
+To Do",0,"Clearly and specifically addresses the key requirement by covering executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings with accurate details.","Covers some key elements (at least 2 of: executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings.","c. assume the os is using a lazy allocation policy for memory allocation to processes. on a page fault due to an unmapped physical page(and a valid virtual address), the os handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction).",1.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then exec""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering executes faulting instruction
+Score 1: Covers some key elements (at least 2 of: executes faulting instruction
+Score 0: Does not address the key requirement or fails to mention executes faulting instruction
+
+Student Response: "" Text:
+To Do""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 1",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Write any advantage of using TiC/TiN as a tool coating material.,it has thermal stability,2,"Clearly and specifically addresses the key requirement by covering write any advantage using tic tin tool coating material, coefficient, and resistance with accurate details.","Covers some key elements (at least 2 of: write any advantage using tic tin tool coating material, coefficient, and resistance) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention write any advantage using tic tin tool coating material, coefficient, and resistance.",write any advantage of using tic/tin as a tool coating material.,2.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Write any advantage of using TiC/TiN as a tool coating material.""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering write any advantage using tic tin tool coating material, coefficient, and resistance with accurate details
+Score 1: Covers some key elements (at least 2 of: write any advantage using tic tin tool coating material, coefficient, and resistance) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention write any advantage using tic tin tool coating material, coefficient, and resistance
+
+Student Response: ""it has thermal stability""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. It makes the appearance of the class good
+ because we can clearly see all the declarations at once and  also 
+suppose  we have many member functions defined in a class and if we declare and define at the same place , it will be difficult for us to look for ",1,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. It makes the appearance of the class good
+ because we can clearly see all the declarations at once and  also 
+suppose  we have many member functions defined in a class and if we declare and define at the same place , it will be difficult for us to look for ""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+</think>
+
+SCORE: 0/1/2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?,Low eigen values denotes very low variance all the values are concentrated towards its mean.,1,"Clearly and specifically addresses the key requirement by covering highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance with accurate details.","Covers some key elements (at least 2 of: highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention highly corelated some other vector. axes not useful, very low eigen value refers axes, and along data has very low variance.",what is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""What is conveyed by the very low eigenvalues with principal component transform applied to high dimensional data?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering highly corelated some other vector
+Score 1: Covers some key elements (at least 2 of: highly corelated some other vector
+Score 0: Does not address the key requirement or fails to mention highly corelated some other vector
+
+Student Response: ""Low eigen values denotes very low variance all the values are concentrated towards its mean.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction)."," True.
+If the virtual address is valid, it will operate in kernel mode to allocate the physical pages with virtual addresses, hence the OS and then move onto the next instruction, providing an illusion to the process that it can directly access its given memory (abstracting the actual allocation and mapping).",0,"Clearly and specifically addresses the key requirement by covering executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings with accurate details.","Covers some key elements (at least 2 of: executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention executes faulting instruction. page fault pc not incremented, false fixing mapping only part operations, and oses page fault handler creates mappings.","c. assume the os is using a lazy allocation policy for memory allocation to processes. on a page fault due to an unmapped physical page(and a valid virtual address), the os handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then executes the next instruction (the one after the faulting instruction).",,"system
+You are a strict, deterministic grader.
+user
+Question: ""c. Assume the OS is using a lazy allocation policy for memory allocation to processes. On a page fault due to an unmapped physical page(and a valid virtual address), the OS handles the page fault (via allocation and updates to the virtual to physical address mappings in the page table) and then exec""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering executes faulting instruction
+Score 1: Covers some key elements (at least 2 of: executes faulting instruction
+Score 0: Does not address the key requirement or fails to mention executes faulting instruction
+
+Student Response: "" True.
+If the virtual address is valid, it will operate in kernel mode to allocate the physical pages with virtual addresses, hence the OS and then move onto the next instruction, providing an illusion to the process that it can directly access its given memory (abstracting the actual allocation and mapping).""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this problem. The user is asking about a memory allocation scenario involving a page fault and the OS's handling of it. The question is part of a rubric where the score depends on whether the response addresses",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"a. List and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the OS via the limited-directed execution setup.
+Note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a PCB exists and hence may not know how to
+update its contents)."," Disable Interrupts - It is a commonly executed instruction in kernel mode however if a user process tries to do this, it has to be restricted otherwise it may occupy the CPU indefinitely.
+Access address above KERNBASE in VA space: Making changes in this VA space may change data required for kernel.",1,"Clearly and specifically addresses the key requirement by covering write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status with accurate details.","Covers some key elements (at least 2 of: write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status.","a. list and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the os via the limited-directed execution setup.
+note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a pcb exists and hence may not know how to
+update its contents).",0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""a. List and explain two privileged actions that an user process may attempt to perform and which
+are prevented by the OS via the limited-directed execution setup.
+Note that the user process has to know specifically how to make such an attempt.
+(e.g., the user process does not know that a PCB exists ""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status with accurate details
+Score 1: Covers some key elements (at least 2 of: write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention write cr3 register modify page directory pointer, access va lies kernel virtual address range, and write eflags registers modify execution status
+
+Student Response: "" Disable Interrupts - It is a commonly executed instruction in kernel mode however if a user process tries to do this, it has to be restricted otherwise it may occupy the CPU indefinitely.
+Access address above KERNBASE in VA space: Making changes in this VA space may change data required for kernel.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+What are the types of hydropower plants based on hydraulic characteristics?,"Storage Plant, Run of River Plant, Cascade Plant",1,"Clearly and specifically addresses the key requirement by covering river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower with accurate details.","Covers some key elements (at least 2 of: river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower.",what are the types of hydropower plants based on hydraulic characteristics?,,"system
+You are a strict, deterministic grader.
+user
+Question: ""What are the types of hydropower plants based on hydraulic characteristics?""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower with accurate details
+Score 1: Covers some key elements (at least 2 of: river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention river river plant storage plant cascade plant pumped storage plant, characteristics, and hydropower
+
+Student Response: ""Storage Plant, Run of River Plant, Cascade Plant""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The user is asking about the types of hydropower plants based on hydraulic characteristics. The student response given is ""Storage Plant, Run of River Plant, Cascade Plant"". I need to evaluate",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Give any application of broaching process.,Broaching process is used to reduce the block thickness or width or length. The block is fixed in one place and the broaching process is carried out.,0,"Clearly and specifically addresses the key requirement by covering splines etc. it also used making slots support, precision machining like automotive industries, and machining gears with accurate details.","Covers some key elements (at least 2 of: splines etc. it also used making slots support, precision machining like automotive industries, and machining gears) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention splines etc. it also used making slots support, precision machining like automotive industries, and machining gears.",give any application of broaching process.,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Give any application of broaching process.""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering splines etc
+Score 1: Covers some key elements (at least 2 of: splines etc
+Score 0: Does not address the key requirement or fails to mention splines etc
+
+Student Response: ""Broaching process is used to reduce the block thickness or width or length. The block is fixed in one place and the broaching process is carried out.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0/1/2",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+"Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",False. Writes are done using fd[1] & reads using fd[0] This is the structure of piped file descriptors.,2,"States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e.g., the causal link / mechanism).","States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value.",States the wrong truth value or provides an incorrect/irrelevant justification.,"q1. state true or false and justify. no correct justification, no marks.
+a. the pipe system call creates two file descriptors fd[0] and fd[1]. writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).",,"system
+You are a strict, deterministic grader.
+user
+Question: ""Q1. State TRUE or FALSE and justify. No correct justification, no marks.
+a. The pipe system call creates two file descriptors fd[0] and fd[1]. Writes using fd[0] can be read using fd[0] or vice-versa (read on fd[1] and write on fd[0]).""
+
+Rubric:
+Score 2: States False and provides a correct justification referencing write can only done fd 1, read can only done fd 0, and justification (e
+Score 1: States False OR gives a mostly correct justification, but the explanation is vague, misses the key link, or omits the explicit truth value
+Score 0: States the wrong truth value or provides an incorrect/irrelevant justification
+
+Student Response: ""False. Writes are done using fd[1] & reads using fd[0] This is the structure of piped file descriptors.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The user is asking about Q1, which is a statement about pipe system calls. The question is whether the statement is true or false.
+
+The student response says ""False. Writes are done",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Usable life of a reservoir is,time till reservoir complete need which for it was designed.,0,"Clearly and specifically addresses the key requirement by covering until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time with accurate details.","Covers some key elements (at least 2 of: until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time.",usable life of a reservoir is,,"system
+You are a strict, deterministic grader.
+user
+Question: ""Usable life of a reservoir is""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time with accurate details
+Score 1: Covers some key elements (at least 2 of: until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention until reservoir can continue serve some its purposes, extending beyond useful economic life, and it period time
+
+Student Response: ""time till reservoir complete need which for it was designed.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+Okay, let's tackle this question. The student response is ""time till reservoir complete need which for it was designed."" I need to evaluate this against the rubric provided.
+
+First, the rubric has three score conditions: ",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+Two      advantages of separating declaration from definition are: .....,"1. It makes the class definition compact and easy to understand, which improves readability of the code and helps us better understand all the functions that a class provides easily, making it de-cluttered.
+
+2. One can easily modify/add to the class definition when defined outside the class without having to modify the class contents, thus making it more accessible, especially when code is divided into files and we need to share the code with slight changes, then we could just make the change in one file containing all function definitions.",2,"Clearly and specifically addresses the key requirement by covering overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear with accurate details.","Covers some key elements (at least 2 of: overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention overriding functions. enhances modularity code. also separates abstraction implementation, easier reader understand. allows easy changing, and code will more clear.",two      advantages of separating declaration from definition are: .....,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""Two      advantages of separating declaration from definition are: .....""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering overriding functions
+Score 1: Covers some key elements (at least 2 of: overriding functions
+Score 0: Does not address the key requirement or fails to mention overriding functions
+
+Student Response: ""1. It makes the class definition compact and easy to understand, which improves readability of the code and helps us better understand all the functions that a class provides easily, making it de-cluttered.
+
+2. One can easily modify/add to the class definition when defined outside the class without having to modify the class contents, thus making it more accessible, especially when code is divided""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+</think>
+
+SCORE: 0/1/2
+
+The student response does not address the key requirement of ""overriding functions"" in any way. While it mentions ""functions"" and ""class definition,"" it does not",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
+To segment the green leaves and stem [4 marks]:,To segment green leaves and stem we apply a threshold of range of values around 120 degree which corresponds to green. the range we should use must be broader than applied in previous part as the shade of green is more darker. Similar to before no threshold on intensity and saturation.,1,"Clearly and specifically addresses the key requirement by covering saturation low, saturation, and intensity with accurate details.","Covers some key elements (at least 2 of: saturation low, saturation, and intensity) but lacks clarity or misses essential detail.","Does not address the key requirement or fails to mention saturation low, saturation, and intensity.",to segment the green leaves and stem [4 marks]:,0.0,"system
+You are a strict, deterministic grader.
+user
+Question: ""To segment the green leaves and stem [4 marks]:""
+
+Rubric:
+Score 2: Clearly and specifically addresses the key requirement by covering saturation low, saturation, and intensity with accurate details
+Score 1: Covers some key elements (at least 2 of: saturation low, saturation, and intensity) but lacks clarity or misses essential detail
+Score 0: Does not address the key requirement or fails to mention saturation low, saturation, and intensity
+
+Student Response: ""To segment green leaves and stem we apply a threshold of range of values around 120 degree which corresponds to green. the range we should use must be broader than applied in previous part as the shade of green is more darker. Similar to before no threshold on intensity and saturation.""
+
+Think step by step which rubric conditions are met.
+On the last line output exactly:
+SCORE: <0/1/2>
+assistant
+<think>
+</think>
+
+SCORE: 0",think,True,Qwen/Qwen3-1.7B,24,1,1,0.0,1.0,2025-10-07T17:15:52Z
